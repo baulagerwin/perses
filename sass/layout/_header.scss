@@ -1,0 +1,69 @@
+.header {
+  height: 100vh;
+  //   background: $fourth-color;
+  background: linear-gradient(to right, $fourth-color, $third-color);
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 40% 100%, 0 85%);
+  overflow: hidden;
+
+  @include respond(tablet) {
+    height: 90vh;
+  }
+
+  // @include respond(minimum) {
+  //   background: $fourth-color;
+  // }
+
+  &__intro-container {
+    width: 75vw;
+    margin: 0 auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include respond(laptop-large) {
+      width: 80vw;
+    }
+
+    @include respond(laptop-small) {
+      width: 85vw;
+      height: 80vh;
+    }
+
+    @include respond(tablet) {
+      width: 90vw;
+      height: 70vh;
+    }
+
+    @include respond(minimum) {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      // // transform: translate(-50%, -50%);
+      // transform: translate(-50%, -50%);
+      transform: translateX(-50%) translateY(calc(-50% - 0.5px));
+    }
+
+    &--paragraph {
+      width: 60vw;
+      font-size: 1.8rem;
+      color: $first-color;
+
+      @include respond(laptop-small) {
+        font-size: 1.6rem;
+      }
+
+      @include respond(tablet) {
+        font-size: 1.4rem;
+      }
+
+      @include respond(minimum) {
+        width: 80vw;
+      }
+
+      @include respond(phone-large) {
+        font-size: 1.2;
+      }
+    }
+  }
+}

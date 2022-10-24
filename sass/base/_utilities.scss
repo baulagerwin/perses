@@ -1,0 +1,23 @@
+.u__marginBottom--large {
+  margin-bottom: 2rem;
+
+  @include respond(laptop-small) {
+    margin-bottom: 1.8rem;
+  }
+
+  @include respond(tablet) {
+    margin-bottom: 1.6rem;
+  }
+
+  @include respond(minimum) {
+    margin-bottom: 1rem;
+  }
+}
+
+.u__marginBottom--medium {
+  margin-bottom: 1.5rem;
+}
+
+.u__marginBottom--small {
+  margin-bottom: 0.5rem;
+}
