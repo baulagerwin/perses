@@ -2,10 +2,6 @@
 
 We build websites that resonate with your brand, look good to users, work well for search engines, and convert visitors to customers — and it’s all for your business.
 
-## URL
-
-[Perses](https://perses.netlify.com)
-
 ## Getting Started
 
 Follow these instructions to run this project on your local machine for development and testing purposes.
