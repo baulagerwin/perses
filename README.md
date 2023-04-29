@@ -2,30 +2,34 @@
 
 We build websites that resonate with your brand, look good to users, work well for search engines, and convert visitors to customers — and it’s all for your business.
 
-## Getting Started
+## Requirements
+
+Install the requirements first before proceeding.
+
+- [Git](https://git-scm.com/) - Version Control System
+
+## Installation
 
 Follow these instructions to run this project on your local machine for development and testing purposes.
 
-### Installing
+1. Clone the repository.
 
-1. Clone the repo
+```bash
+  git clone https://github.com/baulagerwin/perses.git
+```
 
-#### `git clone https://github.com/baulagerwin/perses.git`
+2. Open its directory.
 
-2. Open index.html
+3. Double click index.html.
 
-#### `double click index.html`
-
-3. Explore
-
-#### `Enjoy!`
+4. Explore and enjoy.
 
 ## Built With
 
-- Hypertext Markup Language
-- Syntactically Awesome Sheet
-- JavaScript
+- HyperText Markup Language (HTML)
+- Syntactically Awesome Stylesheet (SASS)
+- JavaScript (JS)
 
-## Acknowledgement
+## Acknowledgements
 
-- [Ionicons](https://ionicons.com/) - Icons used
+- [Ionicons](https://ionic.io/ionicons) - Icons used
