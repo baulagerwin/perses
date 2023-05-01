@@ -2,6 +2,10 @@
 
 We build websites that resonate with your brand, look good to users, work well for search engines, and convert visitors to customers — and it’s all for your business.
 
+## Preview
+
+![Perses](perses.png)
+
 ## Requirements
 
 Install the requirements first before proceeding.
